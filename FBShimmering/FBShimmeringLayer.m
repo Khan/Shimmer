@@ -132,7 +132,7 @@ static CAAnimation *shimmer_slide_finish(CAAnimation *a)
 
 @end
 
-@interface FBShimmeringLayer ()
+@interface FBShimmeringLayer () <CALayerDelegate>
 @property (strong, nonatomic) FBShimmeringMaskLayer *maskLayer;
 @end
 
